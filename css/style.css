@@ -122,6 +122,11 @@ a {
   font-weight: 700;
 }
 
+.recipe i {
+  font-style: italic;
+  font-weight: 500;
+}
+
 /* recipe ingredients */
 
 .recipe-ingredients ul {
@@ -146,10 +151,78 @@ a {
   color: var(--black);
 }
 
-.recipe-ingredients input[type='checkbox'] {
+.recipe-ingredients .check-box-block {
   display: inline-flex;
-  align-items: baseline;
+}
+
+.recipe-ingredients .check-box-block input[type='checkbox'] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+.recipe-ingredients .check-box-block__custom-check-box {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  width: 1.4em;
+  height: 1.4em;
   margin-right: 12px;
+}
+
+.recipe-ingredients .check-box-block__custom-check-box::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: '';
+  border: 1px solid var(--gray3);
+  border-radius: 4px;
+}
+
+.recipe-ingredients .check-box-block__custom-check-box::after {
+  position: absolute;
+  top: 0.375em;
+  left: 0.25em;
+  width: 1em;
+  height: 0.5em;
+  content: '';
+  border-bottom: 2px solid var(--white);
+  border-left: 2px solid var(--white);
+  opacity: 0%;
+  transition: opacity 0.5s;
+  transform: rotate(-40deg);
+}
+
+.recipe-ingredients
+  input[type='checkbox']:checked
+  ~ .check-box-block__custom-check-box::before {
+  background-color: var(--orange);
+  border-color: var(--orange);
+}
+
+.recipe-ingredients
+  input[type='checkbox']:checked
+  ~ .check-box-block__custom-check-box::after {
+  opacity: 100%;
+}
+
+.recipe-ingredients
+  input[type='checkbox']:focus
+  ~ .check-box-block__custom-check-box::before {
+  box-shadow: 0 0 4px var(--orange);
+}
+
+.recipe-ingredients input[type='checkbox']:checked ~ .check-box-block__text {
+  text-decoration: line-through;
 }
 
 /* recipe instructions */
