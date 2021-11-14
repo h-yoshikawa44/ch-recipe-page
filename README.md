@@ -8,10 +8,10 @@
 
 <div align="center">
   <h3>
-    <!-- <a href="https://{your-demo-link.your-domain}">
+    <a href="https://h-yoshikawa44.github.io/ch-recipe-page/">
       Demo
     </a>
-    <span> | </span> -->
+    <span> | </span>
     <!-- <a href="https://{your-url-to-the-solution}">
       Solution
     </a>
@@ -28,17 +28,23 @@
 
 - [Table of Contents](#table-of-contents)
 - [Overview](#overview)
+  - [Desktop](#desktop)
+  - [Mobile](#mobile)
   - [Built With](#built-with)
 - [Features](#features)
 - [How To Use](#how-to-use)
+- [learned/improved](#learnedimproved)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
 <!-- OVERVIEW -->
 
 ## Overview
+### Desktop
+![overview - desktop](/screenshots/desktop.png)
 
-(※in preparation)
+### Mobile
+<img src="/screenshots/mobile.png" alt="overview - mobile" width="35%">
 
 ### Built With
 
@@ -47,7 +53,6 @@
 Base
 - [HTML](https://developer.mozilla.org/ja/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/ja/docs/Web/CSS)
-<!-- - [JavaScript](https://developer.mozilla.org/ja/docs/Web/JavaScript) -->
 - [Node.js](https://nodejs.org/)：16.13.0
 - [Vite](https://ja.vitejs.dev/)：2.6.12
 
@@ -57,9 +62,9 @@ Base
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/TtUjDt19eIHxNQ4n5jps) was to build an application to complete the following user stories:
 
-- [ ] User story: I can see a recipe with ingredients and instructions
-- [ ] User story: I can select a checkbox if I have the ingredients
-- [ ] User story: I can see the number of servings, baking times
+- [x] User story: I can see a recipe with ingredients and instructions
+- [x] User story: I can select a checkbox if I have the ingredients
+- [x] User story: I can see the number of servings, baking times
 
 ## How To Use
 
@@ -78,11 +83,16 @@ $ yarn install
 $ yarn dev
 ```
 
+## learned/improved
+- How to layout with grid-row and grid-column
+- How to create a custom list number element using a pseudo-element.
+
 ## Acknowledgements
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
-(※in preparation)
+- [コピペで使えるリストデザイン34選：CSSで箇条書きをおしゃれに](https://saruwakakun.com/html-css/reference/ul-ol-li-design)
+- [CSS Grid Layout を極める！（基礎編）](https://qiita.com/kura07/items/e633b35e33e43240d363)
 
 ## Contact
 
