@@ -48,7 +48,7 @@ Base
 - [HTML](https://developer.mozilla.org/ja/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/ja/docs/Web/CSS)
 <!-- - [JavaScript](https://developer.mozilla.org/ja/docs/Web/JavaScript) -->
-- [Node.js](https://nodejs.org/)：14.17.3
+- [Node.js](https://nodejs.org/)：16.13.0
 - [Vite](https://ja.vitejs.dev/)：2.6.12
 
 ## Features
