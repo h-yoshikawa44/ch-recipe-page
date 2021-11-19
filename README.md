@@ -72,7 +72,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com/) and [
 
 ```
 # Clone this repository
-$ git clone git@github.com:h-yoshikawa44/ch-recipe-page.git
+$ git clone https://github.com/h-yoshikawa44/ch-recipe-page.git
 or
 $ git clone git@github.com:h-yoshikawa44/ch-recipe-page.git
 
