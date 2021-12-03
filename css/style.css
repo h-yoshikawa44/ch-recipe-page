@@ -92,11 +92,14 @@ a {
 /* article content
 -------------------- */
 
-.contents {
+.article-contents {
+  margin-top: 48px;
+}
+
+.article-contents__layout {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
-  margin-top: 48px;
 }
 
 .recipe {
@@ -354,10 +357,10 @@ a {
   color: var(--gray3);
 }
 
-/* mobile style
+/* tablet style
 -------------------- */
 
-@media (max-width: 600px) {
+@media (max-width: 959px) {
   /* common */
 
   .container {
@@ -390,9 +393,12 @@ a {
 
   /* article content */
 
-  .contents {
-    flex-direction: column;
+  .article-contents {
     margin-top: 16px;
+  }
+
+  .article-contents__layout {
+    flex-direction: column;
   }
 
   .recipe {
