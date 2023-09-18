@@ -183,8 +183,8 @@ a {
 /* recipe ingredients */
 
 .recipe-ingredients ul {
-  list-style: none;
   padding-inline-start: 0;
+  list-style: none;
 }
 
 .recipe-ingredients li {
@@ -250,7 +250,7 @@ a {
   content: '';
   border-bottom: 2px solid var(--white);
   border-left: 2px solid var(--white);
-  opacity: 0%;
+  opacity: 0;
   transition: opacity 0.5s;
   transform: rotate(-40deg);
 }
@@ -265,7 +265,7 @@ a {
 .recipe-ingredients
   input[type='checkbox']:checked
   ~ .check-box-block__custom-check-box::after {
-  opacity: 100%;
+  opacity: 1;
 }
 
 .recipe-ingredients
@@ -285,9 +285,9 @@ a {
 }
 
 .recipe-instructions ol {
+  padding-inline-start: 0;
   list-style-type: none;
   counter-reset: number;
-  padding-inline-start: 0;
 }
 
 /* stylelint-disable-next-line no-descending-specificity */
@@ -360,7 +360,7 @@ a {
 /* tablet style
 -------------------- */
 
-@media (max-width: 959px) {
+@media (width <= 959px) {
   /* common */
 
   .container {
