@@ -20,6 +20,8 @@
   "[json]": {
     "editor.formatOnSave": true
   },
-  "html-css-class-completion.enableEmmetSupport": true,
-  "eslint.packageManager": "yarn"
+  "[markdown]": {
+    "editor.formatOnSave": false
+  },
+  "html-css-class-completion.enableEmmetSupport": true
 }
