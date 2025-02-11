@@ -56,6 +56,9 @@ Base
 - [Node.js](https://nodejs.org/)：22.13.1
 - [Vite](https://ja.vitejs.dev/)：4.4.9
 
+Other major libraries
+- [postcss-preset-env](https://github.com/csstools/postcss-plugins/tree/main/plugin-packs/postcss-preset-env)
+
 ## Features
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
