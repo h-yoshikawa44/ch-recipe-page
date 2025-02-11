@@ -215,10 +215,10 @@ a {
   padding: 0;
   margin: -1px;
   overflow: hidden;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
   white-space: nowrap;
   border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
 }
 
 .recipe-ingredients .check-box-block__custom-check-box {
@@ -251,8 +251,8 @@ a {
   border-bottom: 2px solid var(--white);
   border-left: 2px solid var(--white);
   opacity: 0;
-  transition: opacity 0.5s;
   transform: rotate(-40deg);
+  transition: opacity 0.5s;
 }
 
 .recipe-ingredients
