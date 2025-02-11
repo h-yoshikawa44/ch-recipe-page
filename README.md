@@ -3,7 +3,7 @@
 <h1 align="center">Recipe page</h1>
 
 <div align="center">
-   Solution for a challenge from  <a href="http://legacy.devchallenges.io" target="_blank">Devchallenges.io</a>.
+   Solution for a challenge from Devchallenges.io.
 </div>
 
 <div align="center">
@@ -11,16 +11,11 @@
     <a href="https://h-yoshikawa44.github.io/ch-recipe-page/">
       Demo
     </a>
-    <span> | </span>
-    <a href="https://legacy.devchallenges.io/solutions/SUwASJDgXBoBuZqxRxk7">
-      Solution
-    </a>
-    <span> | </span>
-    <a href="https://legacy.devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht">
-      Challenge
-    </a>
   </h3>
 </div>
+
+*The site is now closed, but this assignment was originally posted at `https://legacy.devchallenges.io/solutions/SUwASJDgXBoBuZqxRxk7`.  
+（My assignment submission page at the time: `https://legacy.devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht`.）
 
 <!-- TABLE OF CONTENTS -->
 
@@ -44,7 +39,7 @@
 ![overview - desktop](/screenshots/desktop.png)
 
 ### Mobile
-<img src="/screenshots/mobile.png" alt="overview - mobile" width="35%">
+<img src="./screenshots/mobile.png" alt="overview - mobile" width="35%">
 
 ### Built With
 
@@ -63,7 +58,7 @@ Other major libraries
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This application/site was created as a submission to a [DevChallenges](https://legacy.devchallenges.io/challenges) challenge. The [challenge](https://legacy.devchallenges.io/challenges/TtUjDt19eIHxNQ4n5jps) was to build an application to complete the following user stories:
+This application/site was created as a submission to a DevChallenges challenge. The challenge was to build an application to complete the following user stories:
 
 - [x] User story: I can see a recipe with ingredients and instructions
 - [x] User story: I can select a checkbox if I have the ingredients
@@ -101,4 +96,4 @@ npm run dev
 
 - Website：[h-yoshikawa44.com](https://h-yoshikawa44.com)
 - GitHub：[@h-yoshikawa44](https://github.com/h-yoshikawa44)
-- Twitter：[@yoshi44_lion](https://twitter.com/yoshi44_lion)
+- X：[@yoshi44_lion](https://x.com/yoshi44_lion)
