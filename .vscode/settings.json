@@ -7,20 +7,8 @@
   },
   "editor.formatOnSave": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[html]": {
-    "editor.formatOnSave": true
-  },
-  "[css]": {
-    "editor.formatOnSave": true
-  },
-  "[javascript]": {
-    "editor.formatOnSave": true
-  },
-  "[json]": {
-    "editor.formatOnSave": true
-  },
+  "html-css-class-completion.enableEmmetSupport": true,
   "[markdown]": {
     "editor.formatOnSave": false
-  },
-  "html-css-class-completion.enableEmmetSupport": true
+  }
 }
