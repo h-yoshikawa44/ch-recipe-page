@@ -87,6 +87,7 @@ a {
 }
 
 .header__img-block img {
+  height: auto;
   border-radius: 12px;
 }
 
